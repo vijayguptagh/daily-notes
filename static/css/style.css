@@ -1,0 +1,26 @@
+/* inside body-main tag margin */
+body{
+    font-size: 12px;
+}
+main{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+/* header pallate color */
+header{
+    background-color:aqua;
+}
+footer{
+    width: 80vw;
+    /* height: 80vh; */
+    position: absolute;
+    bottom:0;
+    /* background: blueviolet; */
+}
+.post{
+    border: 1px solid #3203fb;
+    border-radius: 15px; 
+    background:rgb(235, 255, 237);
+    padding: 20px;
+
+}
