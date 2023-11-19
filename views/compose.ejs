@@ -1,0 +1,36 @@
+<title>Daily Notes | Compose</title>
+<%- include('partials/header.ejs') %>
+
+    <main>
+        <h5>
+            <%= pageName %>
+        </h5>
+
+        <form action="" method="post">
+                <div class="title-box">
+                    <label for="tid"><b>Title </b></label>
+                    <br>
+                    <input type="text" name="title" id="tid" autofocus style="background: #EDF6E5;">
+                </div>
+                <br>
+                <div class="description-box">
+                    <label for="did"><b>Description </b></label>
+                    <br>
+                    <textarea name="description" id="did" cols="100" rows="10"style="background: #EDF6E5;"></textarea>
+                </div>
+            <br>
+            <button type="submit" style="background: rgb(13, 110, 253); color: white; border-radius: 5px;">Publish</button>
+            
+        </form>
+    </main>
+
+    <footer>
+        <%- include("partials/footer.ejs") %>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    </body>
+
+    </html>
