@@ -1,0 +1,7 @@
+features to add
+check responsivness
+1. search option
+2. grid structure
+3. advance features- like font color, shapes, 
+
+host the ur notes app on localhost
